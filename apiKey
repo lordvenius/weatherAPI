@@ -1,0 +1,19 @@
+
+
+GET https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&api_key=lMsIRHT35ngatlfA3PwBkHDmkBEEGiUgKZ4FUskY
+
+
+
+
+
+
+lMsIRHT35ngatlfA3PwBkHDmkBEEGiUgKZ4FUskY
+
+
+
+
+    @foreach ($img as $imgSrc)
+
+    <img src="$imgSrc" alt="">
+
+    @endforeach
